@@ -1,8 +1,8 @@
-package sqlc
+package db
 
 import (
 	"context"
-	"simple/util"
+	"github.com/Purab-Jadhav/simplebank/util"
 	"testing"
 	"time"
 

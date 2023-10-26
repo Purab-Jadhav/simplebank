@@ -1,11 +1,12 @@
-package sqlc
+package db
 
 import (
 	"context"
 	"database/sql"
-	"simple/util"
 	"testing"
 	"time"
+
+	"github.com/Purab-Jadhav/simplebank/util"
 
 	"github.com/stretchr/testify/require"
 	// _ "github.com/stretchr/testify/require"
